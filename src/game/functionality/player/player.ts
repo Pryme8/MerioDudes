@@ -315,7 +315,7 @@ export const AttachPlayerControls = (player: VoxelSprite) => {
                     player.setCurrentAnimationSpeed(normalizedSpeed)
                 }else{
                     StopWalkAnimation()
-                    player.changeFrame(`${GetPlayerPowerUpString(player)}_Skid`)                 
+                    player.changeFrame(`${GetPlayerPowerUpString(player)}_Skid`)                         
                 }
             }
         }else{
